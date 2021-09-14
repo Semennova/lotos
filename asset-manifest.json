@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lotos/static/css/main.010ecdca.chunk.css",
+    "main.js": "/lotos/static/js/main.a8b69d3f.chunk.js",
+    "main.js.map": "/lotos/static/js/main.a8b69d3f.chunk.js.map",
+    "runtime-main.js": "/lotos/static/js/runtime-main.313de76f.js",
+    "runtime-main.js.map": "/lotos/static/js/runtime-main.313de76f.js.map",
+    "static/js/2.cebee26c.chunk.js": "/lotos/static/js/2.cebee26c.chunk.js",
+    "static/js/2.cebee26c.chunk.js.map": "/lotos/static/js/2.cebee26c.chunk.js.map",
+    "static/js/3.26d11033.chunk.js": "/lotos/static/js/3.26d11033.chunk.js",
+    "static/js/3.26d11033.chunk.js.map": "/lotos/static/js/3.26d11033.chunk.js.map",
+    "index.html": "/lotos/index.html",
+    "static/css/main.010ecdca.chunk.css.map": "/lotos/static/css/main.010ecdca.chunk.css.map",
+    "static/js/2.cebee26c.chunk.js.LICENSE.txt": "/lotos/static/js/2.cebee26c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.313de76f.js",
+    "static/js/2.cebee26c.chunk.js",
+    "static/css/main.010ecdca.chunk.css",
+    "static/js/main.a8b69d3f.chunk.js"
+  ]
+}
