@@ -4,15 +4,14 @@ import { api } from '../../api/api'
 import { GlobalContext } from '../../Context/GlobalContext'
 
 
-export default function Searchbar() {
+export function Searchbar() {
     const {setPeople} = useContext(GlobalContext)
 
     const search = async (name) => {
         let response = await api.search(name)
         setPeople(response.data.results)
       }
-
-
+      
     return (
         <div className={style.searchSection}>
             <label className={style.label} htmlFor='search'></label>

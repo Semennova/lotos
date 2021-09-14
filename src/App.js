@@ -1,5 +1,5 @@
 import './App.css'
-import DataBase from './Components/DataBase/DataBase'
+import { DataBase } from './Components/DataBase/DataBase'
 import { GlobalProvider } from './Context/GlobalContext';
 
 function App() {

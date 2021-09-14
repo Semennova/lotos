@@ -1,12 +1,12 @@
 import React, { useEffect, useContext } from 'react'
 import { api, BASE_URL } from '../../api/api'
 import { GlobalContext } from '../../Context/GlobalContext'
-import Searchbar from '../Searchbar/Searchbar'
+import { Searchbar } from '../Searchbar/Searchbar'
 import style from './DataBase.module.css'
 import { Pagination } from '../Pagination/Pagination'
 
 
-export default function DataBase() {
+export function DataBase() {
     const {people, setPeople, setCurrentPage} = useContext(GlobalContext)
 
     useEffect(()=> {
@@ -21,9 +21,7 @@ export default function DataBase() {
        let response = await api.getCurrentPage(pageNumber)
        setPeople(response.data.results)
        setCurrentPage(pageNumber)
-      
     }
-
 
     return (
         <div className={style.dataBaseContainer}>
