@@ -4,6 +4,7 @@ import { GlobalContext } from '../../Context/GlobalContext'
 import { Searchbar } from '../Searchbar/Searchbar'
 import style from './DataBase.module.css'
 import { Pagination } from '../Pagination/Pagination'
+import { DataBaseList } from './DataBaseList'
 
 
 export function DataBase() {
@@ -28,11 +29,7 @@ export function DataBase() {
             <Searchbar />
             <h1 className={style.heading}>Star Wars Data Base</h1>
             {people.map((person, index) => (
-              <div key={index} className={style.personSection}>
-                    <h4>Name: {person.name}</h4>
-                    <span>Height: {person.height}; </span>
-                    <span>Date of birth: {person.birth_year} </span>
-                </div>
+              <DataBaseList person={person} index={index}/>
             ))} 
           <Pagination onPageChange={onPageChange} />
             
