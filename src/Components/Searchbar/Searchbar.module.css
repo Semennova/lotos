@@ -1,0 +1,21 @@
+.searchSection input {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: none;
+}
+
+.searchSection .label{
+      position: relative;
+}
+
+.searchSection .label::before{
+  content: "";
+  position: absolute;
+  left:9rem;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url('https://image.flaticon.com/icons/svg/49/49116.svg') center / contain no-repeat;
+}
