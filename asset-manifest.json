@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lotos/static/css/main.010ecdca.chunk.css",
-    "main.js": "/lotos/static/js/main.a8b69d3f.chunk.js",
-    "main.js.map": "/lotos/static/js/main.a8b69d3f.chunk.js.map",
+    "main.js": "/lotos/static/js/main.29c9791b.chunk.js",
+    "main.js.map": "/lotos/static/js/main.29c9791b.chunk.js.map",
     "runtime-main.js": "/lotos/static/js/runtime-main.313de76f.js",
     "runtime-main.js.map": "/lotos/static/js/runtime-main.313de76f.js.map",
     "static/js/2.cebee26c.chunk.js": "/lotos/static/js/2.cebee26c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.313de76f.js",
     "static/js/2.cebee26c.chunk.js",
     "static/css/main.010ecdca.chunk.css",
-    "static/js/main.a8b69d3f.chunk.js"
+    "static/js/main.29c9791b.chunk.js"
   ]
 }
