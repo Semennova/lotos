@@ -22,7 +22,7 @@ export function DataBase() {
 
 
     const onPageChange = async (pageNumber) => {
-        setLoading(true) 
+       setLoading(true) 
        let response = await api.getCurrentPage(pageNumber)
        setPeople(response.data.results)
        setCurrentPage(pageNumber)
