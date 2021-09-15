@@ -7,5 +7,9 @@
 
 .personSection h4{
     margin-bottom: 0;
-  
+}
+
+.loading{
+    color: #fff;
+    font-size: 2rem;
 }
